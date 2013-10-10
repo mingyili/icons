@@ -1,0 +1,78 @@
+
+/*******动画样式*******/
+
+/*****Sun-B*****/
+.photoBg {
+	animation: suna 5s linear 0s infinite normal;
+	/* Firefox: */
+	-moz-animation: suna 5s linear 0s infinite normal;
+	/* Safari 和 Chrome: */
+	-webkit-animation: suna 5s linear 0s infinite normal;
+}
+.photoBh {
+	animation: sunb 5s linear 0s infinite normal;
+	/* Firefox: */
+	-moz-animation: sunb 5s linear 0s infinite normal;
+	/* Safari 和 Chrome: */
+	-webkit-animation: sunb 5s linear 0s infinite normal;
+}
+
+@keyframes suna
+{
+from { transform: rotate(22deg); }
+to { transform: rotate(382deg); }
+}
+
+@-moz-keyframes suna /* Firefox */
+{
+from { transform: rotate(22deg); }
+to { transform: rotate(382deg); }
+}
+@-webkit-keyframes suna /* Safari 和 Chrome */
+{
+from { -webkit-transform: rotate(22deg); }
+to { -webkit-transform: rotate(382deg); }
+}
+
+@keyframes sunb
+{
+from { transform: rotate(-22deg); }
+to { transform: rotate(338deg); }
+}
+
+@-moz-keyframes sunb /* Firefox */
+{
+from { transform: rotate(-22deg); }
+to { transform: rotate(338deg); }
+}
+@-webkit-keyframes sunb /* Safari 和 Chrome */
+{
+from { -webkit-transform: rotate(-22deg); }
+to { -webkit-transform: rotate(338deg); }
+}
+
+/*****Start-C*****/
+.photoCg {
+	animation: start 5s linear 0s infinite normal;
+	/* Firefox: */
+	-moz-animation: start 5s linear 0s infinite normal;
+	/* Safari 和 Chrome: */
+	-webkit-animation: start 5s linear 0s infinite normal;
+}
+
+@keyframes start
+{
+from {transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+
+@-moz-keyframes start /* Firefox */
+{
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+@-webkit-keyframes start /* Safari 和 Chrome */
+{
+from { -webkit-transform: rotate(0deg); }
+to { -webkit-transform: rotate(360deg); }
+}
